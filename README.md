@@ -26,15 +26,8 @@ GraphST_Prediction/
 git clone https://github.com/YOUR_USERNAME/GraphST_Prediction.git
 cd GraphST_Prediction
 
-### 2.Install dependencies
-Use the requirements.txt file to install all necessary packages.
+2. Install dependencies
 pip install -r requirements.txt
 
 
-
-
-
----
-
-This is the complete README content in one code block, ready to copy and paste directly into your `README.md` file. Just replace `YOUR_USERNAME` with your GitHub username. Let me know if you need further assistance!
 
