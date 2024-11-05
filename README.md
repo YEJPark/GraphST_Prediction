@@ -26,7 +26,12 @@ GraphST_Prediction/
 git clone https://github.com/YOUR_USERNAME/GraphST_Prediction.git
 cd GraphST_Prediction
 
+### 2.Install dependencies
+Use the requirements.txt file to install all necessary packages.
 pip install -r requirements.txt
+
+
+
 
 
 ---
