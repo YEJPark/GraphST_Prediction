@@ -19,15 +19,6 @@ GraphST_Prediction/
 ├── README.md                      # Repository documentation and instructions
 └── requirements.txt               # Package requirements file
 
-## Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/GraphST_Prediction.git
-cd GraphST_Prediction
-
-2. Install dependencies
-pip install -r requirements.txt
 
 
 
