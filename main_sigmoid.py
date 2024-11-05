@@ -9,8 +9,8 @@ from torch_geometric.loader import DataLoader as GeoDataLoader
 from torch_geometric.nn import GCNConv, HypergraphConv
 from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
-from data_loader import load_transcript_data, load_cell_data
-from utils import create_knn_edges, create_hyperedge_knn_edges, save_metrics, save_model, plot_training_log, fov_contrastive_loss
+from src.utils.data_loader import load_transcript_data, load_cell_data
+from src.utils.utils import create_knn_edges, create_hyperedge_knn_edges, save_metrics, save_model, plot_training_log, fov_contrastive_loss
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
