@@ -1,1 +1,21 @@
+Recommended Code Execution Order
 
+1. process_fov_files.py
+This script processes the raw FOV data files. It updates the fov and CellId columns to follow a standardized format, making the data consistent for further analysis.
+Run: python src/preprocessing/process_fov_files.py
+
+2. process_cell_files.py
+This script processes the raw cell data files, particularly updating the CellId column format. It ensures that each cell's identifier is unique and follows a standardized format.
+Run: python src/preprocessing/process_cell_files.py
+
+3. merge_fov_files.py
+This script merges all processed FOV files into a single consolidated file. It combines individual FOV datasets into one dataset, making it easier to use for analysis and modeling.
+Run: python src/preprocessing/merge_fov_files.py
+
+4. add_cancer_column.py
+This script adds a new column called cancer to the dataset, with all values set to 1. This column can be used to label each entry as cancer-positive, if needed.
+Run: python src/preprocessing/add_cancer_column.py
+
+5. erge_fov_selected_columns.py
+This script merges selected columns from the FOV files to create a more memory-efficient dataset. It only includes the essential columns, reducing memory usage and improving performance for large datasets.
+Run: python src/preprocessing/merge_fov_selected_columns.py
